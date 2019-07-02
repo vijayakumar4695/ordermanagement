@@ -1,0 +1,36 @@
+input[type=date] {
+    text-align:right;
+  }
+  input[type=date]::after {
+    text-align:left;
+  }
+ 
+  
+  input[type="date"]:before {
+    color: lightgrey;
+  }
+  
+  input[type="date"]:focus:after {
+    text-align: left;
+  }
+  input[type=date]:after {
+    color: black;
+    
+  }
+  input[type=text]{
+    color:black;
+  }
+  #blockorder{
+    font-size:18px;
+    font-weight: 600;
+    margin-top:0px;
+  }
+  .navbar-inverse ul li a:hover{
+    border-bottom:3px solid black !important;
+  }
+  .navbar-inverse ul li a{
+    border-bottom:3px solid white !important;
+  }
+  h3{
+    font-weight: 900;
+  }

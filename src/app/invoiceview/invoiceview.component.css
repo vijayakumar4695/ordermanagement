@@ -1,0 +1,22 @@
+#blockorder{
+    font-size:18px;
+    font-weight: 600;
+    margin-top:0px;
+  }
+  .navbar-nav>ul>li>a:hover{
+    color:white;
+    cursor: pointer;
+  }
+  .navbar-inverse ul li a:hover{
+    border-bottom:3px solid black !important;
+  }
+  .navbar-inverse ul li a{
+    border-bottom:3px solid white !important;
+  }
+  .navbar-inverse{
+    position: fixed;
+    z-index: 1330;
+  }
+  h3{
+    font-weight: 900;
+  }

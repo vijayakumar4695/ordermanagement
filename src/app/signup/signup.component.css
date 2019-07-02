@@ -1,0 +1,19 @@
+#msg{
+    color:red;
+}
+#account{
+    color:black;
+    font-weight: 500;
+}
+input[type="text"]{
+    color:black;
+}
+input[type="email"]{
+    color:black;
+}
+input[type="password"]{
+    color:black;
+}
+body{
+    overflow-y: hidden;
+}

@@ -1,0 +1,15 @@
+#msg{
+    color:red;
+}
+#account{
+    color:black;
+    font-weight:500;
+}
+
+input[type="email"]{
+    color:black;
+}
+input[type="password"]{
+    color:black;
+}
+

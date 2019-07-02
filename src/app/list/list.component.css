@@ -1,0 +1,48 @@
+#one {
+    padding: 4px; 
+    color:red;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  #one:hover:after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background:black;
+    color:white;
+    padding: 4px;
+    border-radius:10px;
+    text-align: center;
+  }
+  .material-icons{
+     font-size:17px;
+  }
+  #blockorder{
+    font-size:18px;
+    font-weight:600;
+    margin-top:0px;
+  }
+  .text-left{
+    margin-left: 10px;
+  }
+  .navbar-inverse ul li a:hover{
+    border-bottom:3px solid black !important;
+  }
+  .navbar-inverse ul li a{
+    border-bottom:3px solid white !important;
+  }
+  .blinking{
+    animation:blinkingText 8s infinite;
+    font-weight: 600;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+h3{
+  font-weight: 900;
+}
+  
